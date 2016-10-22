@@ -65,6 +65,14 @@ h1 {
 
 /*For 761px below*/
 @media(max-width: 767px){
+
+	.xs-container{
+		width: 100%;
+		clear: both;
+		padding: 10px;		
+	}
+
+
 	.xs-card{
 		clear: both;
 		border-style: solid;
