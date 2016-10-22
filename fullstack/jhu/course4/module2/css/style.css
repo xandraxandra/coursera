@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+p {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+h1 {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+/*For 992px above*/
+@media(min-width: 992px){
+	.large-container{
+		width: 33.33%;
+		float: left;
+		padding: 10px;
+	}
+	
+	.menucard-lg-3{
+		width: 100%;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000000;
+	}
+
+}
+
+/*For 768px to 991px*/
+@media(min-width: 768px) and (max-width: 991px){
+	.mid-container-6{
+		width: 50%;
+		float: left;
+		padding: 10px;	
+	}
+
+	.mid-container-12{
+		width: 100%;
+		clear: both;
+		padding: 10px;		
+	}
+
+	.chickencard-mid-2, .beefcard-mid-2{
+		width: 100%;
+		float: left;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000000;
+	}
+
+	.sushicard-mid-2{
+		clear: left;
+		width: 100%;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000000;
+	}
+
+}
+
+/*For 761px below*/
+@media(max-width: 767px){
+	.xs-card{
+		clear: both;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000000;
+	}
+}
+
+
+
+.cardlabel{
+	float: right;
+	padding: 10px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 50%;
+	border-style: solid;
+	border-width: 0px 0px 1px 1px;
+	border-color: #000000;			
+}
+
+
+.menudesc{
+	clear: both;
+	padding: 15px;
+}
+
+.chickenlbl{
+	background-color: #0C425A;
+	color: #ffffff;
+}
+
+.chickendesc{
+	background-color: #7CA9BD;
+	color: #000000;
+}
+
+.beeflbl{
+	background-color: #8F520D;
+	color: #ffffff;	
+}
+
+.beefdesc{
+	background-color: #F5B873;
+	color: #000000;
+}
+
+.sushilbl{
+	background-color: #09672F;
+	color: #ffffff;
+}
+
+.sushidesc{
+	background-color: #53B079;
+	color: #000000;	
+}
