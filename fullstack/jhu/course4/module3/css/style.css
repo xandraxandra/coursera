@@ -37,15 +37,15 @@ p{
 
 #clink {
 	background-color: #e7e7e7;
-	font-weight: 800;
+	text-transform: uppercase;
 }
 
 #blink{
 	background-color: #D6d8dd;	
-	font-weight: 800;
+	text-transform: uppercase;
 }
 
 #slink{
 	background-color: #ADB5C7;	
-	font-weight: 800;
+	text-transform: uppercase;
 }
