@@ -1,0 +1,35 @@
+p{
+	font-size: 18px;
+	font-family: serif;
+}
+
+.my-nav{
+	background-color: #0f2634;
+}
+
+.my-title{
+	font-family: serif;
+	float: left;
+  	height: 50px;
+  	padding: 15px 15px;
+  	font-size: 21px;
+  	line-height: 20px;
+  	color: #ffffff;
+}
+
+#chicken, #beef, #sushi{
+	margin: 20px 0 20px 0;
+}
+
+#chicken{
+	background-color: #e7e7e7;
+
+}
+
+#beef{
+	background-color: #D6d8dd;
+}
+
+#sushi{
+	background-color: #ADB5C7;
+}
