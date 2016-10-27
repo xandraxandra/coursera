@@ -33,3 +33,19 @@ p{
 #sushi{
 	background-color: #ADB5C7;
 }
+
+
+#clink {
+	background-color: #e7e7e7;
+	font-weight: 800;
+}
+
+#blink{
+	background-color: #D6d8dd;	
+	font-weight: 800;
+}
+
+#slink{
+	background-color: #ADB5C7;	
+	font-weight: 800;
+}
